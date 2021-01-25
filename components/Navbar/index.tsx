@@ -11,15 +11,15 @@ export const Navbar = () => {
       display="flex"
       flexDirection="row"
       alignItems="center"
-      justifyContent="space-around"
-      px="5%"
+      justifyContent="center"
       position="fixed"
       top={0}
       right={0}
       left={0}
       zIndex="10"
+      pr="20px"
     >
-      <x.div flex={2}>
+      <x.div mr="100px">
         <Link href="/">
           <x.a color="white" mr="40px" hoverCursor="pointer">
             REALDUDESINC
@@ -39,12 +39,7 @@ export const Navbar = () => {
           </Link>
         ))}
       </x.div>
-      <x.div
-        display="flex"
-        alignItems="center"
-        justifyContent="space-around"
-        flex={1}
-      >
+      <x.div display="flex" alignItems="center" justifyContent="space-around">
         <x.div display="flex" alignItems="center">
           <x.button
             bg="rgba(255,255,255,0.1)"
@@ -80,12 +75,12 @@ export const Navbar = () => {
             px="20px"
           >
             <Image height={17} width={24} src="/images/flags/us15.png" />
-            <x.p color="white" fontFamily="Inter" ml="15px">
+            <x.p color="white" fontSize="12px" fontFamily="Inter" ml="15px">
               English
             </x.p>
           </x.button>
         </x.div>
-        <x.div display="flex" alignItems="center">
+        <x.div display="flex" alignItems="center" mx="20px">
           <x.div
             border="1px solid"
             borderColor="#F46036"
@@ -117,8 +112,8 @@ export const Navbar = () => {
             justifyContent="center"
           >
             <svg
-              width="85%"
-              height="85%"
+              width="95%"
+              height="95%"
               viewBox="0 0 16 17"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

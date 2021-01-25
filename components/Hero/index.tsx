@@ -11,14 +11,13 @@ export const Hero = () => {
       px="200px"
       display="flex"
       alignItems="center"
-      justifyContent="flex-start"
       flexDirection="column"
     >
       <x.div
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        mt="80px"
+        mt="130px"
       >
         <x.p fontSize="270px" color="white">
           WELCOME
@@ -96,7 +95,7 @@ export const Hero = () => {
         zIndex={-2}
         opacity="0.95"
         style={{
-          filter: 'saturate(150%)  ',
+          filter: 'saturate(150%)',
         }}
       >
         <Image layout="fill" src="/images/hero/Hero_BG_orange.png" />
