@@ -51,10 +51,13 @@ export const Navbar = () => {
             borderRadius="4px"
             h="30px"
             w="30px"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
           >
             <svg
-              width="100%"
-              height="100%"
+              width="85%"
+              height="85%"
               viewBox="0 0 16 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -102,17 +105,20 @@ export const Navbar = () => {
             </x.p>
           </x.div>
         </x.div>
-        <x.div>
+        <x.div display="flex">
           <x.button
             mr="20px"
             bg="rgba(255,255,255,0.1)"
             borderRadius="4px"
             h="30px"
             w="30px"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
           >
             <svg
-              width="100%"
-              height="100%"
+              width="85%"
+              height="85%"
               viewBox="0 0 16 17"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -128,10 +134,13 @@ export const Navbar = () => {
             borderRadius="4px"
             h="30px"
             w="30px"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
           >
             <svg
-              width="100%"
-              height="100%"
+              width="85%"
+              height="85%"
               viewBox="0 0 14 16"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
