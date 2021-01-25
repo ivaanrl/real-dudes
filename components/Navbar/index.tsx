@@ -28,7 +28,7 @@ export const Navbar = () => {
         {navbarLinks.map(({ name, route }) => (
           <Link href={route} passHref key={name}>
             <x.a
-              color="#bbafaf"
+              color="#888888"
               textDecoration="none"
               px="15px"
               hoverColor="white"
