@@ -17,7 +17,7 @@ export const Hero = () => {
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        mt="120px"
+        mt="100px"
       >
         <x.p fontSize="270px" color="white">
           WELCOME
