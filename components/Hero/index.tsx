@@ -17,7 +17,7 @@ export const Hero = () => {
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        mt="130px"
+        mt="110px"
       >
         <x.p fontSize="270px" color="white">
           WELCOME
@@ -73,6 +73,15 @@ export const Hero = () => {
             VISIT THE STORE
           </x.button>
         </x.div>
+        <x.div
+          position="absolute"
+          top={0}
+          bottom={6}
+          left={0}
+          right={0}
+          bg="transparent"
+          boxShadow="0px 4px 20px rgba(0, 0, 0, 0.5)"
+        />
         <Image height={720} width={1280} src="/images/hero/Hero_1.png" />
       </x.div>
       <x.div

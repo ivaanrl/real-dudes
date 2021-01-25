@@ -72,7 +72,7 @@ export const Navbar = () => {
             h="30px"
             ml="20px"
             borderRadius="4px"
-            px="20px"
+            px="15px"
           >
             <Image height={17} width={24} src="/images/flags/us15.png" />
             <x.p color="white" fontSize="12px" fontFamily="Inter" ml="15px">
@@ -80,7 +80,8 @@ export const Navbar = () => {
             </x.p>
           </x.button>
         </x.div>
-        <x.div display="flex" alignItems="center" mx="20px">
+        <x.div h="28px" w="2px" bg="rgba(255,255,255,0.1)" mx="10px" />
+        <x.div display="flex" alignItems="center" mr="20px">
           <x.div
             border="1px solid"
             borderColor="#F46036"
