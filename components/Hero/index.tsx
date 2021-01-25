@@ -95,6 +95,9 @@ export const Hero = () => {
         right={200}
         zIndex={-2}
         opacity="0.95"
+        style={{
+          filter: 'saturate(150%)  ',
+        }}
       >
         <Image layout="fill" src="/images/hero/Hero_BG_orange.png" />
       </x.div>
