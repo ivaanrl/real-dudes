@@ -27,7 +27,7 @@ export const Hero = () => {
         </x.p>
       </x.div>
 
-      <x.div position="absolute" bottom={30} overflow="hidden">
+      <x.div position="absolute" bottom={40} overflow="hidden">
         <x.div
           position="absolute"
           bottom={5}
@@ -109,7 +109,7 @@ export const Hero = () => {
       >
         <Image layout="fill" src="/images/hero/Hero_BG_orange.png" />
       </x.div>
-      <x.div position="absolute" bottom={5}>
+      <x.div position="absolute" bottom={15}>
         <x.button
           h="4px"
           w="40px"
