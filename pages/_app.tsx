@@ -1,4 +1,5 @@
 import { ThemeProvider, Preflight } from '@xstyled/styled-components';
+import { Navbar } from '../components/Navbar';
 import { theme, GlobalStyle } from '../styles/theme';
 
 function MyApp({ Component, pageProps }) {
@@ -6,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider theme={theme}>
       <Preflight />
       <GlobalStyle />
+      <Navbar />
       <Component {...pageProps} />
     </ThemeProvider>
   );
